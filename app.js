@@ -52,7 +52,7 @@ const showSuggestions = (movies) => {
 // Function to fetch movie details
 const getMovieinfo = async (movieName) => {
     try {
-        const url = `http://www.omdbapi.com/?apikey=${API_KEY}&t=${encodeURIComponent(movieName)}`;
+        const url = `https://www.omdbapi.com/?apikey=${API_KEY}&t=${encodeURIComponent(movieName)}`;
         const response = await fetch(url);
         
         if (!response.ok) {
