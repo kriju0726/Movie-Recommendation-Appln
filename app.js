@@ -17,7 +17,7 @@ const getMovieSuggestions = async (query) => {
         return;
     }
     
-    const url = `http://www.omdbapi.com/?apikey=${API_KEY}&s=${encodeURIComponent(query)}`;
+    const url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${encodeURIComponent(query)}`;
     
     try {
         const response = await fetch(url);
