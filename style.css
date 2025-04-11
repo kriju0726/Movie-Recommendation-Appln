@@ -8,6 +8,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+.gif{
+    width: 20px;
+    height: 20px;
+}
+
 body{
     background-color: antiquewhite;
 }
